@@ -142,23 +142,33 @@ To deploy on a hosting service (e.g., Streamlit Cloud, Heroku):
 *(Place these image files inside the `images/` folder at the project root.)*
 
 1. **Settings Panel**
-   ![Settings Panel](./images/settings_panel.png)
+2. ---
+3.  ![Settings Panel](./images/settings_panel.png)
+4.  ---
    *Select graph type, start node, algorithm (BFS/DFS), and step delay.*
 
-2. **Main Visualization**
+5. **Main Visualization**
+6. ---
    ![Main Visualization](./images/main_visualization.png)
+   ---
    *Sample frame showing node “C” highlighted in green, indicating it has been visited.*
 
-3. **Textual Step-by-Step Explanation**
+8. **Textual Step-by-Step Explanation**
+9. ---
    ![Textual Explanation](./images/textual_explanation.png)
+   ---
    *Collapsed expander listing lines like “Step 1: Visited node A. Visited so far: \[A].”*
 
-4. **Test Cases Demonstration Table**
+11. **Test Cases Demonstration Table**
+12. ---
    ![Test Cases Table](./images/test_cases_table.png)
+   ---
    *Predefined test cases with input graphs, expected visit orders, actual visit orders, and “Pass”/“Fail.”*
 
-5. **Complexity Analysis Section**
+13. **Complexity Analysis Section**
+14. ---
    ![Complexity Analysis](./images/complexity_analysis.png)
+   ---
    *Detailed Big O time (O(V + E)) and space (O(V)) complexities for BFS and DFS.*
 
 ---
